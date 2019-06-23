@@ -1,6 +1,6 @@
 # Dashboard page with team table
 
-Dashboard page html/css layout (css-flexbox)
+html/css layout (css-flexbox)
 
 <a href="https://marxpekulen.github.io/Dashboard-Team-Page/docs/">Demo</a>
 
