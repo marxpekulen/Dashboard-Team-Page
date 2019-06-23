@@ -2,7 +2,7 @@
 
 html/css layout (css-flexbox)
 
-<a href="https://marxpekulen.github.io/Dashboard-Team-Page/docs/">Demo</a>
+<a href="https://marxpekulen.github.io/Dashboard-Team-Page/">Demo</a>
 
 ## Install
 
