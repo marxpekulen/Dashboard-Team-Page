@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="18px" viewBox="0 0 22 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>add-user</title>
+    <desc>Created with Sketch.</desc>
+    <g id="All-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Components" transform="translate(-3018.000000, -1869.000000)">
+            <g id="Table/Tabs" transform="translate(1804.000000, 1566.000000)">
+                <g id="Button" transform="translate(1199.000000, 290.000000)">
+                    <g id="add-user" transform="translate(15.000000, 14.000000)">
+                        <path d="M20.863961,13.363961 C20.863961,9.84924241 18.0147186,7 14.5,7 C10.9852814,7 8.13603897,9.84924241 8.13603897,13.363961 C8.13603897,16.8786797 20.863961,16.8786797 20.863961,13.363961 Z" id="Oval-11" stroke="#FFFFFF"></path>
+                        <circle id="Oval-12" stroke="#FFFFFF" cx="14.5" cy="3.5" r="3.5"></circle>
+                        <path d="M3,4 L3,1 L5,1 L5,4 L8,4 L8,6 L5,6 L5,9 L3,9 L3,6 L0,6 L0,4 L3,4 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="header__logo">
+			<a href="/">
+				<img src="img/logo.svg" alt="logo">
+			</a>
+		</div>
+		<div class="header__content">
+			<div class="header__avatar">
+				<img src="img/user.png" alt="user">
+			</div>
+		</div>
+	</header>
+
+	<nav class="nav">
+		<a href="#" class="nav__link" class="active">
+			<img src="img/nav/home.svg" alt="home">
+		</a>
+		<a href="#" class="nav__link">
+			<img src="img/nav/db.svg" alt="db">
+		</a>
+		<a href="#" class="nav__link">
+			<img src="img/nav/save.svg" alt="save">
+		</a>
+		<a href="#" class="nav__link">
+			<img src="img/nav/play.svg" alt="play">
+		</a>
+	</nav>
+
+	<main class="main">
+		<div class="main__topbar topbar">
+			<ul class="breadcrumbs">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">Admin</a>
+				</li>
+				<li>
+					User Managements
+				</li>
+			</ul>
+			<a href="#" class="return-btn">Back</a>
+		</div>
+		<div class="tabs">
+			<nav class="tabs__inner">
+				<a href="#" class="active">Users</a>
+				<a href="#">Reports</a>
+				<a href="#">Requests</a>
+				<a href="#">Disabled Users</a>
+				<a href="#">Restore Users</a>
+				<button class="tabs__more"></button>
+			</nav>
+		</div>
+		<div class="tab-elements">
+			<div class="tab-elements__tab tab">
+				<div class="tab__header">
+					<h2 class="tab__heading">Dashboard Users</h2>
+					<a href="#" class="def-btn">
+						<img src="img/add-user.svg" alt="add user">
+						Add User
+					</a>
+				</div>
+				<div class="table">
+					<div class="table__thead thead">
+						<span class="thead__col">
+							<label for="check-all" class="checkbox">
+								<input type="checkbox" id="check-all" class="checkbox__input">
+								<span class="checkbox__trigger"></span>
+							</label>
+						</span>
+						<span class="thead__col">Account Status</span>
+						<span class="thead__col">User Name</span>
+						<span class="thead__col">Email</span>
+						<span class="thead__col">Account type</span>
+						<span class="thead__col">Actions</span>
+					</div>
+					<div class="table__tbody tbody">
+						<div class="tbody__row">
+							<span class="tbody__col">
+								<label for="col1" class="checkbox">
+									<input type="checkbox" id="col1" class="checkbox__input">
+									<span class="checkbox__trigger"></span>
+								</label>
+							</span>
+							<span class="tbody__col">Active</span>
+							<span class="tbody__col">
+								<img src="img/placeholders/user1@2x.png" alt="user">
+								T Ritika Singh
+							</span>
+							<span class="tbody__col">
+								<a href="email:tritika@ensyspace.com">tritika@ensyspace.com</a>
+							</span>
+							<span class="tbody__col">
+								Admin
+							</span>
+							<span class="tbody__col">
+								<button class="action action--remove"></button>
+								<button class="action action--edit"></button>
+							</span>
+						</div>
+						<div class="tbody__row">
+							<span class="tbody__col">
+								<label for="col2" class="checkbox">
+									<input type="checkbox" id="col2" class="checkbox__input">
+									<span class="checkbox__trigger"></span>
+								</label>
+							</span>
+							<span class="tbody__col">Inactive</span>
+							<span class="tbody__col">
+								<img src="img/placeholders/user2@2x.png" alt="user">
+								James
+							</span>
+							<span class="tbody__col">
+								<a href="email:james@ensyspace.com">james@ensyspace.com</a>
+							</span>
+							<span class="tbody__col">
+								Semi Admin
+							</span>
+							<span class="tbody__col">
+								<button class="action action--remove"></button>
+								<button class="action action--edit"></button>
+							</span>
+						</div>
+						<div class="tbody__row">
+							<span class="tbody__col">
+								<label for="col3" class="checkbox">
+									<input type="checkbox" id="col3" class="checkbox__input">
+									<span class="checkbox__trigger"></span>
+								</label>
+							</span>
+							<span class="tbody__col">Active</span>
+							<span class="tbody__col">
+								<img src="img/placeholders/user3@2x.png" alt="user">
+								Uma Ram
+							</span>
+							<span class="tbody__col">
+								<a href="email:umaram@ensyspace.com">umaram@ensyspace.com</a>
+							</span>
+							<span class="tbody__col">
+								Master Admin
+							</span>
+							<span class="tbody__col">
+								<button class="action action--remove"></button>
+								<button class="action action--edit"></button>
+							</span>
+						</div>
+						<div class="tbody__row">
+							<span class="tbody__col">
+								<label for="col4" class="checkbox">
+									<input type="checkbox" id="col4" class="checkbox__input">
+									<span class="checkbox__trigger"></span>
+								</label>
+							</span>
+							<span class="tbody__col">Active</span>
+							<span class="tbody__col">
+								<img src="img/placeholders/user4@2x.png" alt="user">
+								Laxmi
+							</span>
+							<span class="tbody__col">
+								<a href="email:laxmi@ensyspace.com">laxmi@ensyspace.com</a>
+							</span>
+							<span class="tbody__col">
+								Semi Admin
+							</span>
+							<span class="tbody__col">
+								<button class="action action--remove"></button>
+								<button class="action action--edit"></button>
+							</span>
+						</div>
+						<div class="tbody__row">
+							<span class="tbody__col">
+								<label for="col5" class="checkbox">
+									<input type="checkbox" id="col5" class="checkbox__input">
+									<span class="checkbox__trigger"></span>
+								</label>
+							</span>
+							<span class="tbody__col">Inactive</span>
+							<span class="tbody__col">
+								<img src="img/placeholders/user5@2x.png" alt="user">
+								Anderson
+							</span>
+							<span class="tbody__col">
+								<a href="email:anderson@ensyspace.com">anderson@ensyspace.com</a>
+							</span>
+							<span class="tbody__col">
+								User
+							</span>
+							<span class="tbody__col">
+								<button class="action action--remove"></button>
+								<button class="action action--edit"></button>
+							</span>
+						</div>
+						<div class="tbody__row">
+							<span class="tbody__col">
+								<label for="col6" class="checkbox">
+									<input type="checkbox" id="col6" class="checkbox__input">
+									<span class="checkbox__trigger"></span>
+								</label>
+							</span>
+							<span class="tbody__col">Inactive</span>
+							<span class="tbody__col">
+								<img src="img/placeholders/user6@2x.png" alt="user">
+								Ganesh
+							</span>
+							<span class="tbody__col">
+								<a href="email:ganesh@ensyspace.com">ganesh@ensyspace.com</a>
+							</span>
+							<span class="tbody__col">
+								Semi Admin
+							</span>
+							<span class="tbody__col">
+								<button class="action action--remove"></button>
+								<button class="action action--edit"></button>
+							</span>
+						</div>
+						<div class="tbody__row">
+							<span class="tbody__col">
+								<label for="col7" class="checkbox">
+									<input type="checkbox" id="col7" class="checkbox__input">
+									<span class="checkbox__trigger"></span>
+								</label>
+							</span>
+							<span class="tbody__col">Active</span>
+							<span class="tbody__col">
+								<img src="img/placeholders/user7@2x.png" alt="user">
+								Ashita
+							</span>
+							<span class="tbody__col">
+								<a href="email:ashita@ensyspace.com">ashita@ensyspace.com</a>
+							</span>
+							<span class="tbody__col">
+								User
+							</span>
+							<span class="tbody__col">
+								<button class="action action--remove"></button>
+								<button class="action action--edit"></button>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="tab__quantity">
+					<p>7 Users</p>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>

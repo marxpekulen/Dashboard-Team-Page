@@ -1,0 +1,91 @@
+.table
+	&__thead
+		display: none
+		align-items: center
+		border-bottom: 1px solid rgba(#d1d8f5, .6)
+		padding:
+			left: 14px
+			right: 14px
+			bottom: 20px
+		@media (min-width: $landscape)
+			display: flex
+
+.thead, .tbody
+	&__col
+		display: inline-flex
+		@media (min-width: $landscape)
+			& + .thead__col , & + .tbody__col
+				padding-left: 20px
+			&:first-child
+				flex: 0 0 20px
+			&:nth-child(2)
+				flex: 0 0 146px
+			&:nth-child(3)
+				flex: 1 0 230px
+			&:nth-child(4)
+				flex: 0 1 336px
+			&:nth-child(5)
+				flex: 0 1 220px
+			&:nth-child(6)
+				flex: 0 0 88px
+		&:first-child
+			display: none
+			@media (min-width: $landscape)
+				display: inline-flex
+
+.tbody
+	display: flex
+	flex-direction: column
+	@media (min-width: $md)
+		flex-direction: row
+		flex-wrap: wrap
+	&__row
+		display: flex
+		flex-direction: column
+		background-color: #fff
+		position: relative
+		padding:
+			left: 14px
+			right: 14px
+		margin-bottom: 20px
+		@media (min-width: $md)
+			flex: 0 1 50%
+		@media (min-width: $landscape)
+			flex: 0 1 100%
+			flex-direction: row
+			justify-content: space-between
+			align-items: center
+			border:
+				top: 1px solid transparent
+				left: 1px solid transparent
+				right: 1px solid transparent
+				bottom: 1px solid rgba(#d1d8f5, .6)
+		@media (min-width: $lg)
+			margin-bottom: 0
+		&--highlighted
+			border-color: #b9b3e2
+			box-shadow: 0 8px 19px -5px rgba(157,142,230,0.34)
+			z-index: 1
+	&__col
+		align-items: center
+		padding:
+			top: 7px
+			bottom: 7px
+		@media (min-width: $lg)
+			padding:
+				top: 14px
+				bottom: 14px
+		font-size: 15px
+		color: $text-color
+		&:nth-child(6)
+			margin-left: -8px
+		a
+			color: $text-color
+			&:hover
+				text-decoration: underline
+		img
+			margin-right: 12px
+			width: 35px
+			height: 35px
+			@media (min-width: $lg)
+				margin-right: 25px

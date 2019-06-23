@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="20px" viewBox="0 0 17 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>delete</title>
+    <desc>Created with Sketch.</desc>
+    <g id="All-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Components" transform="translate(-3055.000000, -2029.000000)">
+            <g id="Table/Tabs" transform="translate(1801.000000, 1566.000000)">
+                <g id="delete" transform="translate(1254.000000, 463.000000)">
+                    <rect id="Rectangle-2" stroke="#979797" fill="#D8D8D8" x="0.5" y="3.5" width="16" height="1" rx="0.5"></rect>
+                    <path d="M4.5,1.5 L12.5,1.5 L12.5,1 C12.5,0.723857625 12.2761424,0.5 12,0.5 L5,0.5 C4.72385763,0.5 4.5,0.723857625 4.5,1 L4.5,1.5 Z" id="Rectangle-2-Copy-2" stroke="#979797" fill="#D8D8D8"></path>
+                    <rect id="Rectangle" stroke="#979797" stroke-width="2" x="3" y="4" width="11" height="15" rx="1"></rect>
+                    <rect id="Rectangle-39" fill="#979797" x="3" y="15" width="11" height="3"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

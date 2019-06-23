@@ -1,0 +1,34 @@
+.topbar
+	max-width: $container
+	padding:
+		left: 20px
+		right: 20px
+	margin: 30px auto 40px
+	display: flex
+
+.breadcrumbs
+	flex-grow: 1
+	li
+		display: inline-block
+		font-size: 13px
+		color: $title-color
+		cursor: default
+		& + li
+			&:before
+				content: "/"
+				color: rgba(#717171, .65)
+		a
+			color: rgba(#717171, .65)
+			transition: $transition
+			&:hover
+				color: #717171
+
+.return-btn
+	display: inline-block
+	padding-left: 25px
+	background: url(../img/back.svg) left top 3px no-repeat
+	font-size: 13px
+	color: rgba(#000, .4)
+	transition: $transition
+	&:hover
+		color: #000

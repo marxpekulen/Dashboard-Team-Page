@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="6px" viewBox="0 0 24 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>other</title>
+    <desc>Created with Sketch.</desc>
+    <g id="All-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Components" transform="translate(-2579.000000, -1728.000000)" fill="#686868">
+            <g id="Table/Tabs" transform="translate(1804.000000, 1566.000000)">
+                <path d="M778,168 C776.343146,168 775,166.656854 775,165 C775,163.343146 776.343146,162 778,162 C779.656854,162 781,163.343146 781,165 C781,166.656854 779.656854,168 778,168 Z M787,168 C785.343146,168 784,166.656854 784,165 C784,163.343146 785.343146,162 787,162 C788.656854,162 790,163.343146 790,165 C790,166.656854 788.656854,168 787,168 Z M796,168 C794.343146,168 793,166.656854 793,165 C793,163.343146 794.343146,162 796,162 C797.656854,162 799,163.343146 799,165 C799,166.656854 797.656854,168 796,168 Z" id="other"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>pen</title>
+    <desc>Created with Sketch.</desc>
+    <g id="All-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Components" transform="translate(-3102.000000, -2028.000000)">
+            <g id="Table/Tabs" transform="translate(1801.000000, 1566.000000)">
+                <g id="Edit-Icon" transform="translate(1298.000000, 462.000000)">
+                    <g id="pen" transform="translate(11.595974, 10.722915) rotate(-315.000000) translate(-11.595974, -10.722915) translate(8.095974, -0.777085)">
+                        <path d="M1,0.5 C0.723857625,0.5 0.5,0.723857625 0.5,1 L0.5,18.69904 C0.5,18.9751823 0.723857625,19.19904 1,19.19904 L5.28947268,19.19904 C5.56561505,19.19904 5.78947268,18.9751823 5.78947268,18.69904 L5.78947268,1 C5.78947268,0.723857625 5.56561505,0.5 5.28947268,0.5 L1,0.5 Z" id="Rectangle-20" stroke="#979797"></path>
+                        <polygon id="Rectangle-20-Copy" fill="#979797" points="-4.97379915e-14 18.9845561 6.28947268 18.9845561 3.14473634 22.4792788"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

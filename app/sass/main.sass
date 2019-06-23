@@ -1,0 +1,135 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+a
+	text-decoration: none
+
+ul, ol, h1, h2, h3, h4, h5, h6
+	margin: 0
+	padding: 0
+
+body
+	font-size: 15px
+	min-width: 320px
+	position: relative
+	line-height: 1.33
+	font-family: $default-font
+	color: $text-color
+	overflow-x: hidden
+	padding:
+		top: 51px
+		left: 51px
+	@media (min-width: $lg)
+		padding:
+			top: 71px
+			left: 81px
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.text-center
+	text-align: center
+
+::selection
+	background-color: $accent
+	color: #fff
+
+.def-btn
+	display: inline-flex
+	align-items: center
+	padding: 10px 21px 12px 15px
+	color: #fff
+	background: $button-color
+	border: none
+	box-shadow: none
+	-webkit-appearance: none
+	border-radius: 2px
+	font: 700 15px/1.25 $bold-font
+	transition: $transition
+	&:hover
+		background-color: darken($button-color, 8)
+	&:focus
+		background-color: darken($button-color, 14)
+	img
+		margin-right: 17px
+
+.checkbox
+	display: inline-flex
+	&__input
+		display: none
+		&:checked
+			+ .checkbox__trigger
+				border-color: $accent
+				border-width: 2px
+				background-image: url(../img/check.svg)
+	&__trigger
+		display: inline-block
+		width: 20px
+		height: 20px
+		border-radius: 2px
+		border: 1px solid #979797
+		background-position: center
+		background-repeat: no-repeat
+		cursor: pointer
+
+.action
+	display: inline-block
+	width: 34px
+	height: 34px
+	background-color: transparent
+	-webkit-appearance: none
+	border: none
+	background-position: center
+	background-repeat: no-repeat
+	& + .action
+		margin-left: 10px
+	&--remove
+		background-image: url(../img/delete.svg)
+	&--edit
+		background-image: url(../img/pen.svg)
+
+@import "header"
+@import "nav"
+@import "topbar"
+@import "tabs"
+@import "tab-elements"
+@import "table"
+@import "media" // Всегда в конце

@@ -1,0 +1,56 @@
+.tabs
+	border-bottom: 1px solid #e6e8f1
+	&__inner
+		max-width: $container
+		overflow-x: auto
+		padding:
+			left: 20px
+			right: 20px
+		margin:
+			left: auto
+			right: auto
+		display: flex
+		flex-direction: column
+		@media (min-width: $md)
+			flex-direction: row
+		a
+			display: none
+			font-size: 15px
+			color: $title-color
+			padding-bottom: 15px
+			transition: $transition
+			@media (min-width: $md)
+				display: inline-flex !important
+			&:hover
+				color: $accent
+			& + a
+				margin-top: 10px
+				@media (min-width: $md)
+					margin:
+						left: 50px
+						top: 0
+			&.active
+				position: relative
+				color: $accent
+				font-family: $bold-font
+				@media (min-width: $md)
+					&:after
+						content: ""
+						position: absolute
+						bottom: 0
+						left: -15px
+						width: calc(100% + 30px)
+						height: 4px
+						background-color: $accent
+	&__more
+		width: 24px
+		height: 20px
+		background: url(../img/other.svg) center no-repeat
+		border: none
+		-webkit-appearance: none
+		margin-bottom: 12px
+		@media (min-width: $md)
+			display: none
+			margin:
+				left: 50px
+				bottom: 0

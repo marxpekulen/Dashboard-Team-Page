@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="24px" viewBox="0 0 26 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <g id="All-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-41.000000, -1051.000000)" stroke="#8954BA">
+            <g id="Table/Tabs">
+                <g id="Nav" transform="translate(16.000000, 70.000000)">
+                    <g id="play" transform="translate(26.000000, 981.000000)">
+                        <g id="Help">
+                            <path d="M2.87220732,21.4956134 C1.87820916,21.9773202 0.681913924,21.562026 0.200207124,20.5680278 C0.0684489799,20.2961459 -4.99683406e-16,19.9979462 0,19.6958205 L4.4408921e-16,2.89313759 C3.0881846e-16,1.78856809 0.8954305,0.893137593 2,0.893137593 C2.30212575,0.893137593 2.60032543,0.961586572 2.87220732,1.09334472 L18.3513796,8.59478973 C19.8423768,9.31734993 20.4653181,11.1117928 19.7427579,12.60279" id="Path"></path>
+                            <path d="M24.1428571,12.5 L24.1428571,16.5" id="Line-3" stroke-linecap="square"></path>
+                            <path d="M8.04761905,16.5 L8.04761905,19.5" id="Line-7" stroke-linecap="square"></path>
+                            <path d="M8.04761905,12.5 L24.1428571,12.5" id="Line-5" stroke-linecap="square"></path>
+                            <path d="M8.04761905,16.5 L24.1428571,16.5" id="Line-5" stroke-linecap="square"></path>
+                            <path d="M8.04761905,22.5 L8.04761905,23.5" id="Line-8" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
